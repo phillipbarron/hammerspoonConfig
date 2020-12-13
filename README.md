@@ -19,14 +19,16 @@ git clone git@github.com:phillipbarron/hammerspoonConfig.git ~/.hammerspoon
 ### Move windows
 
 Modifier Chord (ctrl + alt + cmd)
-    Left arrow -> left 50% of screen
-    Right arrow -> right 50% of screen
-    Up arrow -> top 50% of screen
-    Down arrow -> bottom 50% of screen
-    m -> Maximise current window
+
+    * Left arrow -> left 50% of screen
+    * Right arrow -> right 50% of screen
+    * Up arrow -> top 50% of screen
+    * Down arrow -> bottom 50% of screen
+    * m -> Maximise current window
 
 ### Move window between screens
 
 Modifier Chord (ctrl + alt)
-    Left arrow -> move left
-    Right arrow -> move right
+
+    * Left arrow -> move left
+    * Right arrow -> move right
