@@ -8,12 +8,11 @@ units = {
 }
 
 windowManagementModifierChord = {"cmd", "alt", "ctrl"}
-screenSelectorModifierChord = {"cmd", "alt"}
 
 hs.hotkey.bind(windowManagementModifierChord, 'up', function() hs.window.focusedWindow():move(units.top50, nil, true) end)
 hs.hotkey.bind(windowManagementModifierChord, 'down', function() hs.window.focusedWindow():move(units.bot50, nil, true) end)
 hs.hotkey.bind(windowManagementModifierChord, 'left', function() hs.window.focusedWindow():move(units.left50, nil, true) end)
 hs.hotkey.bind(windowManagementModifierChord, 'right', function() hs.window.focusedWindow():move(units.right50, nil, true) end)
 hs.hotkey.bind(windowManagementModifierChord, 'm', function() hs.window.focusedWindow():move(units.maximum, nil, true) end)
-hs.hotkey.bind(screenSelectorModifierChord, 'right', function() hs.window.focusedWindow():moveOneScreenEast() end)
-hs.hotkey.bind(screenSelectorModifierChord, 'left', function() hs.window.focusedWindow():moveOneScreenWest() end)
+hs.hotkey.bind(windowManagementModifierChord, '.', function() hs.window.focusedWindow():moveOneScreenEast() end)
+hs.hotkey.bind(windowManagementModifierChord, ',', function() hs.window.focusedWindow():moveOneScreenWest() end)

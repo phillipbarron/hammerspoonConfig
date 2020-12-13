@@ -25,10 +25,5 @@ Modifier Chord (ctrl + alt + cmd)
     * Up arrow -> top 50% of screen
     * Down arrow -> bottom 50% of screen
     * m -> Maximise current window
-
-### Move window between screens
-
-Modifier Chord (ctrl + alt)
-
-    * Left arrow -> move left
-    * Right arrow -> move right
+    * , -> move one screen left
+    * . -> move one screen right
