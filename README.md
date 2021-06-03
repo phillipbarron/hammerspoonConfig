@@ -20,10 +20,10 @@ git clone git@github.com:phillipbarron/hammerspoonConfig.git ~/.hammerspoon
 
 Modifier Chord (ctrl + alt + cmd)
 
-    * Left arrow -> left 50% of screen
-    * Right arrow -> right 50% of screen
-    * Up arrow -> top 50% of screen
-    * Down arrow -> bottom 50% of screen
-    * m -> Maximise current window
-    * , -> move one screen left
-    * . -> move one screen right
+- Left arrow -> left 50% of screen-
+- Right arrow -> right 50% of screen
+- Up arrow -> top 50% of screen
+- Down arrow -> bottom 50% of screen
+- m -> Maximise current window
+- , -> move one screen left
+- . -> move one screen right
